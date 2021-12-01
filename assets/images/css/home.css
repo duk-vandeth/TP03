@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+
+.home_container{
+    position: relative;
+    height: 100%;
+}
+
+.sidebar{
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar img{
+    width: 80px;
+    border-radius: 200px;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h4{
+   color: rgb(224, 202, 202); 
+}
+.container{
+    background-image: url("../css/home_page_bg_2.jpeg");
+    height: 100vh;
+    margin-left: 22%;
+    color: white;
+    position: relative;
+   
+}
+.container_mask{
+    height: 100vh;
+    opacity: 0.5; 
+    background-color: black;
+}
+.container_text{
+    width: 100%;
+    position: absolute;
+    color: white;
+    
+}
+    
+
+.container .user_name{
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 80px;
+}
+.container.user_role{
+    color: rgba(243, 231, 231, 0.493);
+
+}
+#nav{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#nav li{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(229, 209, 209);
+    border-top: 1px solid black;
+    margin-top: -1px;
+}
+#nav li.active{
+    background-color: rgb(161, 150, 150);
+
+}
+li.active a:after{
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+}
+
+}
+#nav a{
+    color: black;
+    text-decoration:none;
+}
